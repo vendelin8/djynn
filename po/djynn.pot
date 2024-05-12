@@ -1,0 +1,693 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Per\ Löwgren
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: per.lowgren@gmail.com\n"
+"POT-Creation-Date: 2016-09-21 20:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/comment.c:28
+msgid "Toggle Comment(s)"
+msgstr ""
+
+#: src/comment.c:29
+msgid "Toggle Block Comment(s)"
+msgstr ""
+
+#: src/comment.c:30
+msgid "Insert Doxygen Comment(s)"
+msgstr ""
+
+#: src/comment.c:31
+msgid "Strip Comments"
+msgstr ""
+
+#: src/comment.c:373
+msgid "Djynn does not support comments for this file type."
+msgstr ""
+
+#: src/comment.c:376
+msgid "Doxygen does not support this language."
+msgstr ""
+
+#: src/comment.c:656
+msgid "Djynn does not support strip comments for this file type."
+msgstr ""
+
+#: src/dialog.c:63
+msgid "Select Folder"
+msgstr ""
+
+#: src/dialog.c:85
+msgid "New Workspace"
+msgstr ""
+
+#: src/dialog.c:85
+msgid "Rename Workspace"
+msgstr ""
+
+#: src/dialog.c:94
+msgid "Workspace Name:"
+msgstr ""
+
+#: src/dialog.c:102
+msgid "Select a name for your workspace!"
+msgstr ""
+
+#: src/dialog.c:139
+msgid "New Session"
+msgstr ""
+
+#: src/dialog.c:139
+msgid "Rename Session"
+msgstr ""
+
+#: src/dialog.c:157
+msgid "Session Name:"
+msgstr ""
+
+#: src/dialog.c:165
+msgid "Select a name for your session!"
+msgstr ""
+
+#: src/dialog.c:194
+msgid "New Project"
+msgstr ""
+
+#: src/dialog.c:194 src/project.c:87
+msgid "Project Preferences"
+msgstr ""
+
+#: src/dialog.c:205
+msgid "No project has been selected for editing preferences!"
+msgstr ""
+
+#: src/dialog.c:222
+msgid "Project Name:"
+msgstr ""
+
+#: src/dialog.c:225
+msgid "Base Path:"
+msgstr ""
+
+#: src/dialog.c:228
+msgid "Description:"
+msgstr ""
+
+#: src/dialog.c:238
+msgid "Select a name for your project!"
+msgstr ""
+
+#: src/dialog.c:240 src/dialog.c:389 src/dialog.c:458
+msgid "Not a valid directory!"
+msgstr ""
+
+#: src/dialog.c:260
+#, c-format
+msgid ""
+"Project \"%s\" already exists, delete the old project or select another name!"
+msgstr ""
+
+#: src/dialog.c:335 src/project.c:88
+msgid "Folder Preferences"
+msgstr ""
+
+#: src/dialog.c:335
+msgid "New Folder"
+msgstr ""
+
+#: src/dialog.c:346 src/dialog.c:426
+msgid "No project, folder or file selected!"
+msgstr ""
+
+#: src/dialog.c:359
+msgid "Folder Name:"
+msgstr ""
+
+#: src/dialog.c:362
+msgid "Add files in directory"
+msgstr ""
+
+#: src/dialog.c:363
+msgid "Recurse in subfolders"
+msgstr ""
+
+#: src/dialog.c:364
+msgid "Dynamically load files in folder"
+msgstr ""
+
+#: src/dialog.c:381
+msgid "Match files with regex-pattern:"
+msgstr ""
+
+#: src/dialog.c:387
+msgid "Select a name for the folder!"
+msgstr ""
+
+#: src/dialog.c:419
+msgid "New File"
+msgstr ""
+
+#: src/dialog.c:436
+msgid "File Name:"
+msgstr ""
+
+#: src/dialog.c:456
+msgid "Select a name for the file!"
+msgstr ""
+
+#: src/dialog.c:478 src/project.c:89
+msgid "Properties"
+msgstr ""
+
+#: src/dialog.c:480
+msgid "No file selected!"
+msgstr ""
+
+#: src/dialog.c:504
+msgid "byte"
+msgstr ""
+
+#: src/dialog.c:504 src/dialog.c:510
+msgid "bytes"
+msgstr ""
+
+#: src/dialog.c:520
+msgid "Name"
+msgstr ""
+
+#: src/dialog.c:522
+msgid "Location"
+msgstr ""
+
+#: src/dialog.c:524
+msgid "Accessed"
+msgstr ""
+
+#: src/dialog.c:526
+msgid "Modified"
+msgstr ""
+
+#: src/dialog.c:528
+msgid "Size"
+msgstr ""
+
+#: src/dialog.c:530
+msgid "User"
+msgstr ""
+
+#: src/dialog.c:533
+msgid "Group"
+msgstr ""
+
+#: src/dialog.c:536
+msgid "Hard Links"
+msgstr ""
+
+#: src/dialog.c:755
+msgid "Browse..."
+msgstr ""
+
+#: src/djynn.c:31
+msgid ""
+"A small project manager, with some additional functionality; encoding/"
+"decoding, commenting and sorting, etc."
+msgstr ""
+
+#: src/djynn.c:66 src/djynn.c:354
+msgid "Comments"
+msgstr ""
+
+#: src/djynn.c:313 src/project.c:63
+msgid "Project Manager"
+msgstr ""
+
+#: src/djynn.c:314
+msgid "Check to activate the Djynn Project Manager."
+msgstr ""
+
+#: src/djynn.c:316
+msgid "Position:"
+msgstr ""
+
+#: src/djynn.c:317
+msgid "Left"
+msgstr ""
+
+#: src/djynn.c:317
+msgid "Right"
+msgstr ""
+
+#: src/djynn.c:317
+msgid "Sidebar Page"
+msgstr ""
+
+#: src/djynn.c:319
+msgid "Open Directory:"
+msgstr ""
+
+#: src/djynn.c:320
+#, c-format
+msgid ""
+"The command to execute with \"Open Directory\" in the project manager. You "
+"can use %f and %d wildcards:\n"
+"- %f will be replaced with the filename including full path\n"
+"- %d will be replaced with the path name of the selected file without the "
+"filename"
+msgstr ""
+
+#: src/djynn.c:325
+msgid "Workspace List:"
+msgstr ""
+
+#: src/djynn.c:326 src/djynn.c:329
+msgid "Bottom"
+msgstr ""
+
+#: src/djynn.c:326 src/djynn.c:329
+msgid "Hidden"
+msgstr ""
+
+#: src/djynn.c:326 src/djynn.c:329
+msgid "Top"
+msgstr ""
+
+#: src/djynn.c:328
+msgid "Sessions List:"
+msgstr ""
+
+#: src/djynn.c:331
+msgid "Show Icons:"
+msgstr ""
+
+#: src/djynn.c:332
+msgid "Basic Icons"
+msgstr ""
+
+#: src/djynn.c:332
+msgid "Icons by Content-type"
+msgstr ""
+
+#: src/djynn.c:332
+msgid "None"
+msgstr ""
+
+#: src/djynn.c:333
+msgid "Icons shown for documents in Project manager tree view."
+msgstr ""
+
+#: src/djynn.c:336
+msgid "Show tree lines"
+msgstr ""
+
+#: src/djynn.c:338
+msgid "Single click, open document and focus it"
+msgstr ""
+
+#: src/djynn.c:341
+msgid "Double click open directory"
+msgstr ""
+
+#: src/djynn.c:344
+msgid "Activate project opens config-file instead of Geany project"
+msgstr ""
+
+#: src/djynn.c:345
+msgid ""
+"When double clicking on the project, the project configuration file is "
+"opened in the editor instead of opening the Geany project (see Project in "
+"the menu)."
+msgstr ""
+
+#: src/djynn.c:348
+msgid "Activate document also activates sidebar page"
+msgstr ""
+
+#: src/djynn.c:349
+msgid ""
+"When opening a document in the editor, if another page is visible in the "
+"sidebar the Project tab is automatically activated."
+msgstr ""
+
+#: src/djynn.c:355
+msgid "Check to activate Djynn Comments."
+msgstr ""
+
+#: src/djynn.c:357
+msgid "Replace Geany's built in commenting functions"
+msgstr ""
+
+#: src/djynn.c:361 src/line.c:39
+msgid "Line Ordering"
+msgstr ""
+
+#: src/djynn.c:362
+msgid "Check to activate Djynn Line Ordering."
+msgstr ""
+
+#: src/djynn.c:364 src/djynn.c:371
+msgid "Format entire document when no text is selected"
+msgstr ""
+
+#: src/djynn.c:368 src/encode.c:56
+msgid "Encode & Decode"
+msgstr ""
+
+#: src/djynn.c:369
+msgid "Check to activate Djynn Encode & Decode."
+msgstr ""
+
+#: src/djynn.c:436
+msgid "Workspace"
+msgstr ""
+
+#: src/djynn.c:437
+msgid "Session"
+msgstr ""
+
+#: src/encode.c:36
+msgid "Encode Hexadecimal"
+msgstr ""
+
+#: src/encode.c:37
+msgid "Decode Hexadecimal"
+msgstr ""
+
+#: src/encode.c:39
+msgid "Encode Base58"
+msgstr ""
+
+#: src/encode.c:40
+msgid "Decode Base58"
+msgstr ""
+
+#: src/encode.c:41
+msgid "Encode Base64"
+msgstr ""
+
+#: src/encode.c:42
+msgid "Decode Base64"
+msgstr ""
+
+#: src/encode.c:44
+msgid "C String Escape"
+msgstr ""
+
+#: src/encode.c:45
+msgid "C String Unescape"
+msgstr ""
+
+#: src/encode.c:47
+msgid "HTML Encode"
+msgstr ""
+
+#: src/encode.c:48
+msgid "HTML Decode"
+msgstr ""
+
+#: src/encode.c:49
+msgid "URL Encode"
+msgstr ""
+
+#: src/encode.c:50
+msgid "URL Decode"
+msgstr ""
+
+#: src/line.c:28
+msgid "Sort Asc. [aA-zZ]"
+msgstr ""
+
+#: src/line.c:29
+msgid "Sort Asc. Case [a-z-A-Z]"
+msgstr ""
+
+#: src/line.c:30
+msgid "Sort Desc. [Zz-Aa]"
+msgstr ""
+
+#: src/line.c:31
+msgid "Sort Desc. Case [Z-A-z-a]"
+msgstr ""
+
+#: src/line.c:33
+msgid "Reverse Lines"
+msgstr ""
+
+#: src/line.c:45
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+#: src/project.c:56 src/project.c:75
+msgid "New Project..."
+msgstr ""
+
+#: src/project.c:69
+msgid "Open File"
+msgstr ""
+
+#: src/project.c:70
+msgid "Open All Files"
+msgstr ""
+
+#: src/project.c:71
+msgid "Open Directory"
+msgstr ""
+
+#: src/project.c:72
+msgid "Open Terminal"
+msgstr ""
+
+#: src/project.c:73
+msgid "Close File"
+msgstr ""
+
+#: src/project.c:76
+msgid "New Folder..."
+msgstr ""
+
+#: src/project.c:77
+msgid "New File..."
+msgstr ""
+
+#: src/project.c:78
+msgid "Add Active File"
+msgstr ""
+
+#: src/project.c:79
+msgid "Add All Open Files"
+msgstr ""
+
+#: src/project.c:80
+msgid "Remove"
+msgstr ""
+
+#: src/project.c:81
+msgid "Delete From Disk"
+msgstr ""
+
+#: src/project.c:83
+msgid "Sort Files"
+msgstr ""
+
+#: src/project.c:84
+msgid "Move Up"
+msgstr ""
+
+#: src/project.c:85
+msgid "Move Down"
+msgstr ""
+
+#: src/project.c:91 src/workspace.c:38
+msgid "Reload Workspace"
+msgstr ""
+
+#: src/project.c:93
+msgid "Hide Sidebar"
+msgstr ""
+
+#: src/project.c:168
+msgid "Cannot drag-n-drop virtual files and folders."
+msgstr ""
+
+#: src/project.c:169
+msgid "Cannot drag-n-drop into virtual files and folders."
+msgstr ""
+
+#: src/project.c:170
+msgid "Cannot drag-n-drop into dynamically loaded files and folders."
+msgstr ""
+
+#: src/project.c:549
+msgid "dynamic"
+msgstr ""
+
+#: src/project.c:550
+msgid "virtual"
+msgstr ""
+
+#: src/project.c:551
+msgid "Config File"
+msgstr ""
+
+#: src/project.c:551 src/project.c:1365
+msgid "Project"
+msgstr ""
+
+#: src/project.c:552
+msgid "Folder"
+msgstr ""
+
+#: src/project.c:554
+msgid "File"
+msgstr ""
+
+#: src/project.c:694
+msgid "Delete Project"
+msgstr ""
+
+#: src/project.c:694
+msgid "Remove Project"
+msgstr ""
+
+#: src/project.c:696
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete project \"%s\" from disk?\n"
+"Project files and folders remain untouched, only the project is deleted."
+msgstr ""
+
+#: src/project.c:698
+#, c-format
+msgid "Are you sure you want to remove project \"%s\" from this workspace?"
+msgstr ""
+
+#: src/project.c:700
+msgid "Delete Folder"
+msgstr ""
+
+#: src/project.c:700
+msgid "Remove Folder"
+msgstr ""
+
+#: src/project.c:702
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete folder \"%s\" and all its files "
+"and subfolders from disk?"
+msgstr ""
+
+#: src/project.c:704
+#, c-format
+msgid ""
+"Are you sure you want to remove folder \"%s\" and all its files and "
+"subfolders from the project?"
+msgstr ""
+
+#: src/project.c:707
+msgid "Delete File"
+msgstr ""
+
+#: src/project.c:707
+msgid "Remove File"
+msgstr ""
+
+#: src/project.c:709
+#, c-format
+msgid "Are you sure you want to permanently delete file \"%s\" from disk?"
+msgstr ""
+
+#: src/project.c:710
+#, c-format
+msgid "Are you sure you want to remove file \"%s\" from the project?"
+msgstr ""
+
+#: src/project.c:815
+#, c-format
+msgid "Could not execute configured external command '%s' (%s)."
+msgstr ""
+
+#: src/project.c:824 src/project.c:851
+#, c-format
+msgid "Not a valid directory or file: %s"
+msgstr ""
+
+#: src/project.c:845
+#, c-format
+msgid "Could not open terminal '%s' for directory: %s"
+msgstr ""
+
+#: src/session.c:38
+msgid "New Session..."
+msgstr ""
+
+#: src/session.c:39
+msgid "Save Session"
+msgstr ""
+
+#: src/session.c:40
+msgid "Rename Session..."
+msgstr ""
+
+#: src/session.c:41
+msgid "Reload Session"
+msgstr ""
+
+#: src/session.c:42 src/session.c:228
+msgid "Delete Session"
+msgstr ""
+
+#: src/session.c:150
+#, c-format
+msgid "The file \"%s\" no longer exists."
+msgstr ""
+
+#: src/session.c:241
+#, c-format
+msgid "Are you sure you want to delete the session \"%s\"?"
+msgstr ""
+
+#: src/session.c:244
+msgid "There must be at least one session!"
+msgstr ""
+
+#: src/session.c:294
+msgid "Switch between sessions."
+msgstr ""
+
+#: src/workspace.c:36
+msgid "New Workspace..."
+msgstr ""
+
+#: src/workspace.c:37
+msgid "Rename Workspace..."
+msgstr ""
+
+#: src/workspace.c:39 src/workspace.c:372
+msgid "Delete Workspace"
+msgstr ""
+
+#: src/workspace.c:374
+#, c-format
+msgid ""
+"Are you sure you want to delete the entire workspace \"%s\" and all its "
+"projects?"
+msgstr ""
+
+#: src/workspace.c:378
+msgid "There must be at least one workspace!"
+msgstr ""
+
+#: src/workspace.c:439
+msgid "Switch between workspaces."
+msgstr ""

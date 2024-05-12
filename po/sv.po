@@ -1,0 +1,713 @@
+# Swedish translations for djynn package.
+# Copyright (C) 2015 Per Löwgren
+# This file is distributed under the same license as the djynn package.
+# Per Löwgren <per.lowgren@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: djynn 0.5\n"
+"Report-Msgid-Bugs-To: per.lowgren@gmail.com\n"
+"POT-Creation-Date: 2016-09-21 20:33+0200\n"
+"PO-Revision-Date: 2015-07-27 15:35+0200\n"
+"Last-Translator: Per Löwgren <per.lowgren@gmail.com>\n"
+"Language-Team: none\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/comment.c:28
+msgid "Toggle Comment(s)"
+msgstr "Infoga / Ta bort kommentar(er)"
+
+#: src/comment.c:29
+msgid "Toggle Block Comment(s)"
+msgstr "Infoga / Ta bort block-kommentar(er)"
+
+#: src/comment.c:30
+msgid "Insert Doxygen Comment(s)"
+msgstr "Infoga Doxygen kommentar(er)"
+
+#: src/comment.c:31
+msgid "Strip Comments"
+msgstr "Ta bort kommentarer"
+
+#: src/comment.c:373
+msgid "Djynn does not support comments for this file type."
+msgstr "Djynn saknar stöd för kommentarer för denna filtyp."
+
+#: src/comment.c:376
+msgid "Doxygen does not support this language."
+msgstr "Doxygen stödjer inte detta språk."
+
+#: src/comment.c:656
+msgid "Djynn does not support strip comments for this file type."
+msgstr "Djynn saknar stöd för att ta bort kommentarer för denna filtyp."
+
+#: src/dialog.c:63
+msgid "Select Folder"
+msgstr "Välj mapp"
+
+#: src/dialog.c:85
+msgid "New Workspace"
+msgstr "Ny arbetsyta"
+
+#: src/dialog.c:85
+msgid "Rename Workspace"
+msgstr "Döp om arbetsyta"
+
+#: src/dialog.c:94
+msgid "Workspace Name:"
+msgstr "Arbetsytans namn:"
+
+#: src/dialog.c:102
+msgid "Select a name for your workspace!"
+msgstr "Välj ett namn för din arbetsyta!"
+
+#: src/dialog.c:139
+msgid "New Session"
+msgstr "Ny session"
+
+#: src/dialog.c:139
+msgid "Rename Session"
+msgstr "Döp om sesion"
+
+#: src/dialog.c:157
+msgid "Session Name:"
+msgstr "Sessionens namn:"
+
+#: src/dialog.c:165
+msgid "Select a name for your session!"
+msgstr "Välj ett namn för din session!"
+
+#: src/dialog.c:194
+msgid "New Project"
+msgstr "Nytt projekt"
+
+#: src/dialog.c:194 src/project.c:87
+msgid "Project Preferences"
+msgstr "Projektinställningar"
+
+#: src/dialog.c:205
+msgid "No project has been selected for editing preferences!"
+msgstr "Inget projekt valt för ändring av inställningar!"
+
+#: src/dialog.c:222
+msgid "Project Name:"
+msgstr "Projektets namn:"
+
+#: src/dialog.c:225
+msgid "Base Path:"
+msgstr "Rotkatalog:"
+
+#: src/dialog.c:228
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: src/dialog.c:238
+msgid "Select a name for your project!"
+msgstr "Välj ett namn för ditt projekt!"
+
+#: src/dialog.c:240 src/dialog.c:389 src/dialog.c:458
+msgid "Not a valid directory!"
+msgstr "Inte en riktig katalog!"
+
+#: src/dialog.c:260
+#, c-format
+msgid ""
+"Project \"%s\" already exists, delete the old project or select another name!"
+msgstr ""
+"Projektet \"%s\" finns redan, ta bort det gamla projektet eller välj annat "
+"namn!"
+
+#: src/dialog.c:335 src/project.c:88
+msgid "Folder Preferences"
+msgstr "Mappinställningar"
+
+#: src/dialog.c:335
+msgid "New Folder"
+msgstr "Ny mapp"
+
+#: src/dialog.c:346 src/dialog.c:426
+msgid "No project, folder or file selected!"
+msgstr "Varken projekt, mapp eller fil markerad!"
+
+#: src/dialog.c:359
+msgid "Folder Name:"
+msgstr "Mappnamn:"
+
+#: src/dialog.c:362
+msgid "Add files in directory"
+msgstr "Lägg till filer i katalogen"
+
+#: src/dialog.c:363
+msgid "Recurse in subfolders"
+msgstr "Sök i underkataloger"
+
+#: src/dialog.c:364
+msgid "Dynamically load files in folder"
+msgstr "Ladda filer i mappen dynamiskt"
+
+#: src/dialog.c:381
+msgid "Match files with regex-pattern:"
+msgstr "Matcha filer med regex-kod:"
+
+#: src/dialog.c:387
+msgid "Select a name for the folder!"
+msgstr "Välj ett namn för katalogen!"
+
+#: src/dialog.c:419
+msgid "New File"
+msgstr "Ny fil"
+
+#: src/dialog.c:436
+msgid "File Name:"
+msgstr "Filnamn:"
+
+#: src/dialog.c:456
+msgid "Select a name for the file!"
+msgstr "Välj ett namn för filen!"
+
+#: src/dialog.c:478 src/project.c:89
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: src/dialog.c:480
+msgid "No file selected!"
+msgstr "Ingen fil markerad!"
+
+#: src/dialog.c:504
+msgid "byte"
+msgstr "byte"
+
+#: src/dialog.c:504 src/dialog.c:510
+msgid "bytes"
+msgstr "bytes"
+
+#: src/dialog.c:520
+msgid "Name"
+msgstr "Namn"
+
+#: src/dialog.c:522
+msgid "Location"
+msgstr "Plats"
+
+#: src/dialog.c:524
+msgid "Accessed"
+msgstr "Åtkommen"
+
+#: src/dialog.c:526
+msgid "Modified"
+msgstr "Ändrad"
+
+#: src/dialog.c:528
+msgid "Size"
+msgstr "Storlek"
+
+#: src/dialog.c:530
+msgid "User"
+msgstr "Användare"
+
+#: src/dialog.c:533
+msgid "Group"
+msgstr "grupp"
+
+#: src/dialog.c:536
+msgid "Hard Links"
+msgstr "Hårda länkar"
+
+#: src/dialog.c:755
+msgid "Browse..."
+msgstr "Bläddra..."
+
+#: src/djynn.c:31
+msgid ""
+"A small project manager, with some additional functionality; encoding/"
+"decoding, commenting and sorting, etc."
+msgstr ""
+"En liten projekthanterare, med diverse extra funktionalitet; formattering, "
+"kommentarer, radsortering, etc."
+
+#: src/djynn.c:66 src/djynn.c:354
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: src/djynn.c:313 src/project.c:63
+msgid "Project Manager"
+msgstr "Projekthanteraren"
+
+#: src/djynn.c:314
+msgid "Check to activate the Djynn Project Manager."
+msgstr "Kryssa i för att aktivera Djynn Projekthanteraren."
+
+#: src/djynn.c:316
+msgid "Position:"
+msgstr "Position:"
+
+#: src/djynn.c:317
+msgid "Left"
+msgstr "Vänster"
+
+#: src/djynn.c:317
+msgid "Right"
+msgstr "Höger"
+
+#: src/djynn.c:317
+msgid "Sidebar Page"
+msgstr "Flik i sidofältet"
+
+#: src/djynn.c:319
+msgid "Open Directory:"
+msgstr "Öppna katalog:"
+
+#: src/djynn.c:320
+#, c-format
+msgid ""
+"The command to execute with \"Open Directory\" in the project manager. You "
+"can use %f and %d wildcards:\n"
+"- %f will be replaced with the filename including full path\n"
+"- %d will be replaced with the path name of the selected file without the "
+"filename"
+msgstr ""
+"Kommandot att exekvera med \"Öppna katalog\". Du kan använda %f och %d.\n"
+"- %f kommer att ersättas med filnamnet och fullständig sökväg\n"
+"- %d kommer att ersättas med sökvägen till vald fil (utan filnamnet)"
+
+#: src/djynn.c:325
+msgid "Workspace List:"
+msgstr "Lista över arbetsytor:"
+
+#: src/djynn.c:326 src/djynn.c:329
+msgid "Bottom"
+msgstr "Botten"
+
+#: src/djynn.c:326 src/djynn.c:329
+msgid "Hidden"
+msgstr "Dold"
+
+#: src/djynn.c:326 src/djynn.c:329
+msgid "Top"
+msgstr "Topp"
+
+#: src/djynn.c:328
+msgid "Sessions List:"
+msgstr "Lista över sessioner:"
+
+#: src/djynn.c:331
+msgid "Show Icons:"
+msgstr "Visa ikoner:"
+
+#: src/djynn.c:332
+msgid "Basic Icons"
+msgstr "Standardikoner"
+
+#: src/djynn.c:332
+msgid "Icons by Content-type"
+msgstr "Ikoner efter filtyp"
+
+#: src/djynn.c:332
+msgid "None"
+msgstr "Inte"
+
+#: src/djynn.c:333
+msgid "Icons shown for documents in Project manager tree view."
+msgstr "Ikoner som visas i projekthanterarens trädvy."
+
+#: src/djynn.c:336
+msgid "Show tree lines"
+msgstr "Visa linjer"
+
+#: src/djynn.c:338
+msgid "Single click, open document and focus it"
+msgstr "Enkelklick öppnar och visar dokument"
+
+#: src/djynn.c:341
+msgid "Double click open directory"
+msgstr "Dubbelklick öppnar katalog"
+
+#: src/djynn.c:344
+msgid "Activate project opens config-file instead of Geany project"
+msgstr "Aktivering av projekt öppnar konfigurationsfil"
+
+#: src/djynn.c:345
+msgid ""
+"When double clicking on the project, the project configuration file is "
+"opened in the editor instead of opening the Geany project (see Project in "
+"the menu)."
+msgstr ""
+"Vid dubbelklick på projektet öppnas konfigurationsfilen i redigeraren "
+"istället för att öppna Geany-projektet (se Projekt i menyn)."
+
+#: src/djynn.c:348
+msgid "Activate document also activates sidebar page"
+msgstr "Aktivering av dokument aktiverar även sidofältet"
+
+#: src/djynn.c:349
+msgid ""
+"When opening a document in the editor, if another page is visible in the "
+"sidebar the Project tab is automatically activated."
+msgstr ""
+"När ett dokument öppnas i redigeraren, om en annan sida är synlig i "
+"sidofältet, aktiveras automatiskt Projekt-fliken."
+
+#: src/djynn.c:355
+msgid "Check to activate Djynn Comments."
+msgstr "Kryssa i för att aktivera Djynn Kommentarer."
+
+#: src/djynn.c:357
+msgid "Replace Geany's built in commenting functions"
+msgstr "Byt ut Geanys inbyggda kommentarsfunktioner"
+
+#: src/djynn.c:361 src/line.c:39
+msgid "Line Ordering"
+msgstr "Ordna rader"
+
+#: src/djynn.c:362
+msgid "Check to activate Djynn Line Ordering."
+msgstr "Kryssa i för att aktivera Djynn Ordna Rader."
+
+#: src/djynn.c:364 src/djynn.c:371
+msgid "Format entire document when no text is selected"
+msgstr "Ändra hela dokumentet när ingen text är markerad"
+
+#: src/djynn.c:368 src/encode.c:56
+msgid "Encode & Decode"
+msgstr "Koda & avkoda"
+
+#: src/djynn.c:369
+msgid "Check to activate Djynn Encode & Decode."
+msgstr "Kryssa i för att aktivera Djynn Kodning & Avkodning."
+
+#: src/djynn.c:436
+msgid "Workspace"
+msgstr "Arbetsyta"
+
+#: src/djynn.c:437
+msgid "Session"
+msgstr "Session"
+
+#: src/encode.c:36
+msgid "Encode Hexadecimal"
+msgstr "Koda hexadecimalt"
+
+#: src/encode.c:37
+msgid "Decode Hexadecimal"
+msgstr "Avkoda hexadecimalt"
+
+#: src/encode.c:39
+msgid "Encode Base58"
+msgstr "Koda 58-bas"
+
+#: src/encode.c:40
+msgid "Decode Base58"
+msgstr "Avkoda 58-bas"
+
+#: src/encode.c:41
+msgid "Encode Base64"
+msgstr "Koda 64-bas"
+
+#: src/encode.c:42
+msgid "Decode Base64"
+msgstr "Avkoda 64-bas"
+
+#: src/encode.c:44
+msgid "C String Escape"
+msgstr "Koda C-sträng"
+
+#: src/encode.c:45
+msgid "C String Unescape"
+msgstr "Avkoda C-sträng"
+
+#: src/encode.c:47
+msgid "HTML Encode"
+msgstr "Koda HTML"
+
+#: src/encode.c:48
+msgid "HTML Decode"
+msgstr "Avkoda HTML"
+
+#: src/encode.c:49
+msgid "URL Encode"
+msgstr "Koda URL"
+
+#: src/encode.c:50
+msgid "URL Decode"
+msgstr "Avkoda URL"
+
+#: src/line.c:28
+msgid "Sort Asc. [aA-zZ]"
+msgstr "Sortera stigande [aA-zZ]"
+
+#: src/line.c:29
+msgid "Sort Asc. Case [a-z-A-Z]"
+msgstr "Sortera stigande [a-z-A-Z]"
+
+#: src/line.c:30
+msgid "Sort Desc. [Zz-Aa]"
+msgstr "Sortera sjunkande [Zz-Aa]"
+
+#: src/line.c:31
+msgid "Sort Desc. Case [Z-A-z-a]"
+msgstr "Sortera sjunkande [Z-A-z-a]"
+
+#: src/line.c:33
+msgid "Reverse Lines"
+msgstr "Omvänd radordning"
+
+#: src/line.c:45
+msgid "Remove Duplicate Lines"
+msgstr "Ta bort identiska rader"
+
+#: src/project.c:56 src/project.c:75
+msgid "New Project..."
+msgstr "Nytt projekt..."
+
+#: src/project.c:69
+msgid "Open File"
+msgstr "Öppna fil"
+
+#: src/project.c:70
+msgid "Open All Files"
+msgstr "Öppna alla filer"
+
+#: src/project.c:71
+msgid "Open Directory"
+msgstr "Öppna katalog"
+
+#: src/project.c:72
+msgid "Open Terminal"
+msgstr "Öppna terminal"
+
+#: src/project.c:73
+msgid "Close File"
+msgstr "Stäng fil"
+
+#: src/project.c:76
+msgid "New Folder..."
+msgstr "Ny katalog..."
+
+#: src/project.c:77
+msgid "New File..."
+msgstr "Ny fil..."
+
+#: src/project.c:78
+msgid "Add Active File"
+msgstr "Lägg till aktiv fil"
+
+#: src/project.c:79
+msgid "Add All Open Files"
+msgstr "Lägg till alla öppna filer"
+
+#: src/project.c:80
+msgid "Remove"
+msgstr "Ta bort"
+
+#: src/project.c:81
+msgid "Delete From Disk"
+msgstr "Ta bort från disken"
+
+#: src/project.c:83
+msgid "Sort Files"
+msgstr "Sortera filer"
+
+#: src/project.c:84
+msgid "Move Up"
+msgstr "Flytta upp"
+
+#: src/project.c:85
+msgid "Move Down"
+msgstr "Flytta ner"
+
+#: src/project.c:91 src/workspace.c:38
+msgid "Reload Workspace"
+msgstr "Ladda om arbetsyta"
+
+#: src/project.c:93
+msgid "Hide Sidebar"
+msgstr "Göm sidolist"
+
+#: src/project.c:168
+msgid "Cannot drag-n-drop virtual files and folders."
+msgstr "Kan inte flytta virtuella filer och mappar."
+
+#: src/project.c:169
+msgid "Cannot drag-n-drop into virtual files and folders."
+msgstr "Kan inte flytta till virtuella filer och mappar."
+
+#: src/project.c:170
+msgid "Cannot drag-n-drop into dynamically loaded files and folders."
+msgstr "Kan inte flytta till dynamiskt laddade filer och mappar."
+
+#: src/project.c:549
+msgid "dynamic"
+msgstr "dynamisk"
+
+#: src/project.c:550
+msgid "virtual"
+msgstr "virtuell"
+
+#: src/project.c:551
+msgid "Config File"
+msgstr "Konfigurationsfil"
+
+#: src/project.c:551 src/project.c:1365
+msgid "Project"
+msgstr "Projekt"
+
+#: src/project.c:552
+msgid "Folder"
+msgstr "Mapp"
+
+#: src/project.c:554
+msgid "File"
+msgstr "Fil"
+
+#: src/project.c:694
+msgid "Delete Project"
+msgstr "Ta bort projekt"
+
+#: src/project.c:694
+msgid "Remove Project"
+msgstr "Ta bort projekt"
+
+#: src/project.c:696
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete project \"%s\" from disk?\n"
+"Project files and folders remain untouched, only the project is deleted."
+msgstr ""
+"Är du säker på att du vill ta bort projektet \"%s\" från hårddisken?\n"
+"Projektets filer och kataloger förblir orörda, endast projektet raderas."
+
+#: src/project.c:698
+#, c-format
+msgid "Are you sure you want to remove project \"%s\" from this workspace?"
+msgstr ""
+"Är du säker på att du vill ta bort projektet \"%s\" från denna arbetsytan?"
+
+#: src/project.c:700
+msgid "Delete Folder"
+msgstr "Ta bort katalog"
+
+#: src/project.c:700
+msgid "Remove Folder"
+msgstr "Ta bort katalog"
+
+#: src/project.c:702
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete folder \"%s\" and all its files "
+"and subfolders from disk?"
+msgstr ""
+"Är du säker på att du vill ta bort katalogen \"%s\" och alla filer och "
+"underkataloger från hårddisken?"
+
+#: src/project.c:704
+#, c-format
+msgid ""
+"Are you sure you want to remove folder \"%s\" and all its files and "
+"subfolders from the project?"
+msgstr ""
+"Är du säker på att du vill ta bort katalogen \"%s\" och alla filer och "
+"underkataloger från projektet?"
+
+#: src/project.c:707
+msgid "Delete File"
+msgstr "Ta bort fil"
+
+#: src/project.c:707
+msgid "Remove File"
+msgstr "Stäng fil"
+
+#: src/project.c:709
+#, c-format
+msgid "Are you sure you want to permanently delete file \"%s\" from disk?"
+msgstr "Är du säker på att du vill ta bort filen \"%s\" från hårddisken?"
+
+#: src/project.c:710
+#, c-format
+msgid "Are you sure you want to remove file \"%s\" from the project?"
+msgstr "Är du säker på att du vill ta bort filen \"%s\" från projektet?"
+
+#: src/project.c:815
+#, c-format
+msgid "Could not execute configured external command '%s' (%s)."
+msgstr "Kunde inte exekvera det externa kommandot '%s' (%s)."
+
+#: src/project.c:824 src/project.c:851
+#, c-format
+msgid "Not a valid directory or file: %s"
+msgstr "Inte en riktig katalog eller fil: %s"
+
+#: src/project.c:845
+#, c-format
+msgid "Could not open terminal '%s' for directory: %s"
+msgstr "Kunde inte öppna terminalen '%s' för katalogen: %s"
+
+#: src/session.c:38
+msgid "New Session..."
+msgstr "Ny session..."
+
+#: src/session.c:39
+msgid "Save Session"
+msgstr "Spara session"
+
+#: src/session.c:40
+msgid "Rename Session..."
+msgstr "Döp om sesion..."
+
+#: src/session.c:41
+msgid "Reload Session"
+msgstr "Ladda om session"
+
+#: src/session.c:42 src/session.c:228
+msgid "Delete Session"
+msgstr "Ta bort session"
+
+#: src/session.c:150
+#, c-format
+msgid "The file \"%s\" no longer exists."
+msgstr "Filen \"%s\" existerar inte längre."
+
+#: src/session.c:241
+#, c-format
+msgid "Are you sure you want to delete the session \"%s\"?"
+msgstr "Är du säker på att du vill ta bort sessionen \"%s\"?"
+
+#: src/session.c:244
+msgid "There must be at least one session!"
+msgstr "Det måste finnas åtminstone en session!"
+
+#: src/session.c:294
+msgid "Switch between sessions."
+msgstr "Växla mellan sessioner."
+
+#: src/workspace.c:36
+msgid "New Workspace..."
+msgstr "Ny arbetsyta..."
+
+#: src/workspace.c:37
+msgid "Rename Workspace..."
+msgstr "Döp om arbetsyta..."
+
+#: src/workspace.c:39 src/workspace.c:372
+msgid "Delete Workspace"
+msgstr "Ta bort arbetsyta"
+
+#: src/workspace.c:374
+#, c-format
+msgid ""
+"Are you sure you want to delete the entire workspace \"%s\" and all its "
+"projects?"
+msgstr ""
+"Är du säker på att du vill ta bort hela arbetsytan \"%s\" och alla dess "
+"projekt?"
+
+#: src/workspace.c:378
+msgid "There must be at least one workspace!"
+msgstr "Det måste finnas åtminstone en arbetsyta!"
+
+#: src/workspace.c:439
+msgid "Switch between workspaces."
+msgstr "Växla mellan arbetsytor."

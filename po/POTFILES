@@ -1,0 +1,10 @@
+# List of source files which contain translatable strings.
+src/_config.h
+src/comment.c
+src/dialog.c
+src/djynn.c
+src/encode.c
+src/project.c
+src/session.c
+src/line.c
+src/workspace.c
